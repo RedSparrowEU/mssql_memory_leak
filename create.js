@@ -40,14 +40,14 @@ function fillData(con) {
   return new Promise(async (resolve, reject) => {
     const insert = [];
 
-    for (let iRow = 0; iRow < 1; iRow++) {
+    const noOfInserts = 1;
+
+    for (let iRow = 0; iRow < noOfInserts; iRow++) {
       insert['fields'] = '';
       insert['values'] = '';
       console.log(`Prepare row: ${iRow + 1}`);
 
-      const noOfInserts = 1;
-
-      for (let iField = 0; iField < noOfInserts; iField++) {
+      for (let iField = 0; iField < 10; iField++) {
         const a = new Array(3 * 1024 * 1024);
         a.fill(255);
         const b = Buffer.from(a);
