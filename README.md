@@ -9,7 +9,7 @@ This example shows memory leak in node during usage of Microsoft SQL (msnodesqlv
 - requires working Microsoft SQL Server (express)
 - create login 'demo/demo123'
 - create database `mem_leak`
-- `node create.js` for creating tables with blobs
+- `node create.js` for creating table with blobs
 - `node select.js` for reading n times
 
 ## Issue:
