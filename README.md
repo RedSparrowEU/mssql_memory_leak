@@ -6,9 +6,10 @@ This example shows memory leak in node during usage of Microsoft SQL (msnodesqlv
 
 - node (tested on 14.9.0)
 - [ODBC Driver 17 for SQL Server](https://www.microsoft.com/en-us/download/details.aspx?id=56567)
-- requires working Microsoft SQL Server (express)
-- create login 'demo/demo123'
-- create database `mem_leak`
+- credentials (or just use already available - setup in config.js)
+  - requires working Microsoft SQL Server (express)
+  - create login 'demo/demo123'
+  - create database `mem_leak`
 - `node create.js` for creating table with blobs
 - `node select.js` for reading n times
 
