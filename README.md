@@ -1,6 +1,6 @@
 # Memory Leak Example
 
-This example shows memory leak in node during usage of Microsoft SQL (msnodesqlv8)
+This example shows memory leak in node during usage of Microsoft SQL (msnodesqlv8 <= 2.0.5 - fixed in msnodesqlv8 2.0.6)
 
 ## Setup:
 
